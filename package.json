@@ -1,0 +1,24 @@
+{
+  "name": "simple-node-kotlin-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbindustries/simple-node-kotlin-server.git"
+  },
+  "author": "Philip Bankier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbindustries/simple-node-kotlin-server/issues"
+  },
+  "homepage": "https://github.com/pbindustries/simple-node-kotlin-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "kotlin": "^1.2.50"
+  }
+}

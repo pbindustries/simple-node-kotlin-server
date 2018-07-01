@@ -1,0 +1,4 @@
+node/**
+.gradle/**
+package-lock.json
+node_modules/**

@@ -1,10 +1,14 @@
 external fun require(module:String):dynamic
 
 fun main(args: Array<String>) {
-    println("Hello JavaScript!")
-
     val express = require("express")
     val app = express()
+    val fs = require("fs")
+
+    fun() -> (
+        var testytest="abcd";
+        return fs.readdirSync(".");
+    )
 
     app.get("/", { req, res ->
         res.type("text/plain")
